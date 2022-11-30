@@ -1,0 +1,115 @@
+/* ------------------------------------------------------
+    Main Style
+------------------------------------------------------ */
+@font-face {
+    font-family: 'bebas_neue';
+    src: url('../fonts/bebasneue-regular.woff2') format('woff2'),
+         url('../fonts/bebasneue-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoMedium';
+    src: url('../fonts/roboto-medium.woff2') format('woff2'),
+         url('../fonts/roboto-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'robotoRegular';
+    src: url('../fonts/roboto-regular.woff2') format('woff2'),
+         url('../fonts/roboto-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotThin';
+    src: url('../fonts/roboto-thin.woff2') format('woff2'),
+         url('../fonts/roboto-thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoBold';
+    src: url('../fonts/roboto-bold.woff2') format('woff2'),
+         url('../fonts/roboto-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+li{
+    list-style: none !important;
+}
+
+body{
+    margin: 0;
+    background-color: #201D27;
+}
+
+main{
+    background: url('../images/general-0-swaps-mobile.png') no-repeat top left, 
+                url('../images/Vector4.png') no-repeat right 40%,
+                url('../images/Gold-Number-02.png') no-repeat -85% 32%,
+                url('../images/zero-mobile-bigger-tinted.png') no-repeat 170% 11%;
+    background-size: 100% auto , 450px auto, 350px auto, auto auto;
+}
+
+@media (min-width: 992px) {
+    main{
+        background: url('../images/general-0-swaps-tablet.png') no-repeat top left, 
+                    url('../images/Vector4.png') no-repeat right 40%,
+                    url('../images/Gold-Number-02.png') no-repeat -32% 40%;
+        background-size: 100% auto , 500px auto, 550px auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    main{
+        background: url('../images/general-0-swaps-desktop.png') no-repeat top left , 
+                url('../images/Vector4.png') no-repeat right 40%,
+                url('../images/Gold-Number-02.png') no-repeat -27% 40%!important;
+        background-size: 100% auto , auto auto, 710px auto !important;
+    }
+}
+
+.ta-c{
+    text-align: center;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.no-margin{
+    margin:0 !important;
+}
+
+.submit{
+    width: 345px;
+    max-width: 100%;
+    padding: 7px 20px !important;
+    text-transform: uppercase;
+    background-color: #29a643 !important;
+    color: #fff !important;
+    border: 0;
+    box-shadow: none;
+    font:24px/27px 'bebas_neue';
+    border-radius: 0 !important;
+}
+
+.submit.disabled{
+    background: #CCCCCC !important;
+    color: #fff !important;
+}
