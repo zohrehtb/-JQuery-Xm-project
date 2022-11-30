@@ -1,6 +1,6 @@
 # Xt challang
 
-# base on JQuery and Bootstrap3
+base on JQuery and Bootstrap3
 
-# Demo
+Demo
 http://xm-challang.freehost.io/
