@@ -1,4 +1,4 @@
-# Xm challang
+# Xm Challenge
 
 base on JQuery and Bootstrap3
 
